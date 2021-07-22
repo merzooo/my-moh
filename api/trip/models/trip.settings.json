@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trips",
+  "info": {
+    "name": "trip",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "via": "trips",
+      "model": "category"
+    },
+    "contents": {
+      "via": "trip",
+      "collection": "content"
+    }
+  }
+}

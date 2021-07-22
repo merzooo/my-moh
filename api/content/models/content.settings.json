@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "name": "content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "top": {
+      "type": "boolean"
+    },
+    "final": {
+      "type": "boolean"
+    },
+    "classico": {
+      "type": "boolean"
+    },
+    "darbi": {
+      "type": "boolean"
+    },
+    "trip": {
+      "via": "contents",
+      "model": "trip"
+    },
+    "videoURL": {
+      "type": "text"
+    },
+    "videoURL2": {
+      "type": "string"
+    },
+    "videoURL3": {
+      "type": "string"
+    },
+    "videoURL4": {
+      "type": "string"
+    },
+    "videoURL5": {
+      "type": "string"
+    },
+    "videoURL6": {
+      "type": "string"
+    },
+    "videoURL7": {
+      "type": "string"
+    },
+    "videoURL8": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+   " provider": "cloudinary",
+    "providerOptions": {
+      "cloud_name": "boussofbf",
+      "api_key": "375828523239393",
+      "api_secret": "h8OaM6l1vwbNaKFCzX7Mi9Ln2co"
+    }
+}
